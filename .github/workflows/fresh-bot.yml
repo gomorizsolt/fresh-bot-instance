@@ -11,6 +11,6 @@ jobs:
 
     steps:
       - name: Bump stale issues
-        uses: gomorizsolt/fresh-bot@v1
+        uses: gomorizsolt/fresh-bot@master
         with:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }} # Needs `repo` scope
